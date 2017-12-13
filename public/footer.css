@@ -20,12 +20,12 @@
 
 	/*position: fixed;*/
 
-  left: 0 !important;
-  bottom: 0 !important;
-	height: 25%;
-	position: absolute;
-  overflow: scroll;
-
+  	left: 0 !important;
+  	bottom: 0 !important;
+	height: 20%;
+	position: relative;
+  	overflow: scroll;
+}
 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,

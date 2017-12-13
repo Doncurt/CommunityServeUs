@@ -57,6 +57,11 @@ require('./controllers/authen')(app)
 require('./controllers/posts')(app)
 require('./controllers/comments')(app)
 
+
+app.get('/faq', function (req, res) {
+    res.render('faq.handlebars');
+})
+
 app.listen(process.env.PORT||3000, ()=> {
   console.log('Server for CommunityServesUs listening on port 3000!')
 })
